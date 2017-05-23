@@ -15,5 +15,6 @@ public class test {
         driver.get("https://www.youtube.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+        System.out.println("args = [" + args + "]");
     }
 }
