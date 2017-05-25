@@ -10,11 +10,6 @@ import java.util.concurrent.TimeUnit;
  */
 public class test {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.youtube.com/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
         System.out.println("args = [" + args + "]");
         System.out.println("args = [" + args + "]");
         System.out.println("args = [" + args + "]");
