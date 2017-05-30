@@ -20,6 +20,7 @@ public class Testjava {
         }
         avg = total / 10;
         System.out.println(avg);
+        System.out.println("args = [" + args + "]");
 
     }
 }
